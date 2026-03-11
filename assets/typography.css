@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Funnel Display';
+    src: url('/assets/fonts/funnel-display-latin-300-normal.woff2') format('woff2'),
+         url('/assets/fonts/funnel-display-latin-300-normal.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Funnel Display';
+    src: url('/assets/fonts/funnel-display-latin-400-normal.woff2') format('woff2'),
+         url('/assets/fonts/funnel-display-latin-400-normal.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Funnel Display';
+    src: url('/assets/fonts/funnel-display-latin-500-normal.woff2') format('woff2'),
+         url('/assets/fonts/funnel-display-latin-500-normal.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Funnel Display';
+    src: url('/assets/fonts/funnel-display-latin-600-normal.woff2') format('woff2'),
+         url('/assets/fonts/funnel-display-latin-600-normal.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Funnel Display';
+    src: url('/assets/fonts/funnel-display-latin-700-normal.woff2') format('woff2'),
+         url('/assets/fonts/funnel-display-latin-700-normal.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Funnel Display';
+    src: url('/assets/fonts/funnel-display-latin-800-normal.woff2') format('woff2'),
+         url('/assets/fonts/funnel-display-latin-800-normal.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Funnel Display', sans-serif !important;
+}
+
+.coach-row:hover { background-color: #f8fafc !important; }
+.coach-row-selected { background-color: #eff6ff !important; }
+
+/* Dropdown internals */
+.Select-value-label,
+.Select-placeholder,
+.Select-input input,
+.Select-option,
+.Select-menu-outer,
+.VirtualizedSelectOption,
+.VirtualizedSelectFocusedOption,
+.dropdown .Select-control,
+.dash-dropdown .Select-control,
+[class*="placeholder"],
+[class*="singleValue"],
+[class*="multiValue"],
+[class*="option"],
+[class*="menu"],
+[class*="control"],
+[class*="input"] {
+    font-family: 'Funnel Display', sans-serif !important;
+}
+
+/* Navbar links */
+.nav-link, a.nav-link {
+    font-family: 'Funnel Display', sans-serif !important;
+}
+
+/* Bootstrap and general inputs */
+input, select, textarea, button, label, th, td, h1, h2, h3, h4, h5, h6, p, span, div {
+    font-family: 'Funnel Display', sans-serif !important;
+}

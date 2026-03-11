@@ -1,0 +1,10 @@
+.portal-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+th:hover .portal-tooltip {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
