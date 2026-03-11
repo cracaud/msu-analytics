@@ -9,7 +9,8 @@ app = Dash(
 app.title = "Basketball Analytics"
 server = app.server
 
-import layout  # ← Add this at the bottom (after app is created)
+import layout      # ← sets app.layout
+import callbacks   # ← registers your callbacks
 
 if __name__ == "__main__":
     app.run(debug=False)
