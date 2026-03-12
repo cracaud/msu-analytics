@@ -1,7 +1,7 @@
 from dash import Input, Output
 from app import app
 from data.db import get_conferences_by_tier
-from components.layout import SIDEBAR_STYLE
+from layout import SIDEBAR_STYLE  # ← change components.layout to layout
 import pages.home
 import pages.team_rankings
 import pages.player_rankings
